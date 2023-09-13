@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode esta vazio</li>
+            <li>Usúario só poderá conter letras e/ou números</li>
+            <li>Usuário devera ter entre 3 a 12 caracteres </li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form method="post" action="/" class="formulario">
+            <label for="">Nome:</label>
+            <input type="text" class="nome">
+
+            <label for="">Sobrenome:</label>
+            <input type="text" class="sobrenome">
+
+            <label for="">CPF:</label>
+            <input type="text" class="cpf">
+
+            <label for="">Usuário:</label>
+            <input type="text" class="usuario">
+
+            <label for="">Senha:</label>
+            <input type="text" class="senha">
+
+            <label for="">Confirma senha:</label>
+            <input type="text" class="confirma-senha">
+            <button>Enviar</button>
+        </form>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
