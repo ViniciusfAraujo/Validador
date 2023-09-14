@@ -1,2 +1,2 @@
 # Validador
- Validador um formulário
+ Validador de formulário
